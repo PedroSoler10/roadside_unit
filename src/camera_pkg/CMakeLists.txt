@@ -207,5 +207,6 @@ include_directories(
 
 install(PROGRAMS
   src/camera_publisher.py
+  src/tennis_ball_detector.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
