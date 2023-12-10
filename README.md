@@ -25,10 +25,24 @@ Publish camera images with usb_cam
 ----
 http://wiki.ros.org/usb_cam
 
+Camera calibration
+----
+https://www.youtube.com/watch?v=S-UHiFsn-GI&list=PL2zRqk16wsdoCCLpou-dGo7QQNks1Ppzo
+
+
 Calibrate the camera with camera_calibration
 ----
 http://wiki.ros.org/camera_calibration
-
+```
+rosdep install camera_calibration
+rostopic list
+  /camera/camera_info
+  /camera/image_raw
+rosrun camera_calibration cameracalibrator.py --size 9x7 --square 0.020 image:=/usb_cam/image_raw camera:=/usb_cam
+```
 usb_cam already uses a default calibration data: file:///home/pedro/.ros/camera_info/head_camera.yaml
 
 The file created by camera_calibration, ost.yaml, is really similar to the default one of usb_cam
+
+Tennis ball detector
+----
