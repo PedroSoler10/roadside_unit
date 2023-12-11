@@ -22,6 +22,11 @@ ssh-add ~/.ssh/max_laptop
 cat ~/.ssh/max_laptop.pub
 ```
 
+Clone repository:
+```
+git clone git@github.com:PedroSoler10/camera_infrastructure.git
+```
+
 Create a catkin_workspace
 ----
 http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
