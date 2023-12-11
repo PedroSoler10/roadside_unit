@@ -5,12 +5,22 @@ This project is part of my master thesis: "Implementation of a System to Infrast
 Set up GitHub
 ------
 https://docs.github.com/en/get-started
-
-user.name and user.email
-
+```
+git config --global user.name "PedroSoler10"
+git config --global user.email "soler.pedrojavier@gmail.com"
+```
 SSH authentication:
 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh 
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
+
+https://github.com/settings/keys
+
+```
+ssh-keygen -t ed25519 -C "soler.pedrojavier@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/max_laptop
+cat ~/.ssh/max_laptop.pub
+```
 
 Create a catkin_workspace
 ----
