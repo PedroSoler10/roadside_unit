@@ -1,4 +1,4 @@
-camera_infrastructure
+v2i_system
 ====
 This project is part of my master thesis: "Implementation of a System to Infrastructure System for Autonomous Vehicles"
 
