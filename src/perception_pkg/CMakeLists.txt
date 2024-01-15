@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(camera_pkg)
+project(perception_pkg)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -72,7 +72,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   sensor_msgs
+#   std_msgs
 # )
 
 ################################################
@@ -106,7 +106,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES camera_pkg
+#  LIBRARIES perception
 CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
 #  DEPENDS system_lib
 )
@@ -124,7 +124,7 @@ CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/camera_pkg.cpp
+#   src/${PROJECT_NAME}/perception.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -135,7 +135,7 @@ CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/camera_pkg_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/perception_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -199,16 +199,10 @@ CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_camera_pkg.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_perception.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
-# install(PROGRAMS
-#   src/camera_publisher.py
-#   src/tennis_ball_detector.py
-#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
