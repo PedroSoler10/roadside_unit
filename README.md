@@ -59,6 +59,10 @@ usb_cam already uses a default calibration data: file:///home/pedro/.ros/camera_
 
 The file created by camera_calibration, ost.yaml, is really similar to the default one of usb_cam
 
+Architecture
+----
+![rosgraph](https://github.com/PedroSoler10/v2i_system/assets/74536059/22992f37-c4aa-4dd4-9ff1-adcd110a5c4b)
+
 
 usb_cam-test.launch
 ----
