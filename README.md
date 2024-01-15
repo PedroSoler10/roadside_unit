@@ -39,8 +39,6 @@ http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 Publish camera images with usb_cam
 ----
 http://wiki.ros.org/usb_cam
-usb_cam-test,launch modified
-roslaunch ./launch/usb_cam-test.launch image_view:=true video_device:=/dev/video2
 
 Camera calibration
 ----
@@ -61,5 +59,22 @@ usb_cam already uses a default calibration data: file:///home/pedro/.ros/camera_
 
 The file created by camera_calibration, ost.yaml, is really similar to the default one of usb_cam
 
-Tennis ball detector
+
+usb_cam-test.launch
 ----
+```
+roslaunch ./launch/usb_cam-test.launch video_device:=/dev/video2 image_view:=true image_view_topic:=/tennis_ball_image
+```
+
+perception_pkg
+----
+```
+rosrun perception_pkg tennis_ball_tracking
+rosrun perception_pkg scenario_classification
+```
+
+debugging_pkg
+----
+```
+rosrun debugging_pkg visualizer
+```
