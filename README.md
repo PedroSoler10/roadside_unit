@@ -39,6 +39,8 @@ http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 Publish camera images with usb_cam
 ----
 http://wiki.ros.org/usb_cam
+usb_cam-test,launch modified
+roslaunch ./launch/usb_cam-test.launch image_view:=true video_device:=/dev/video2
 
 Camera calibration
 ----
