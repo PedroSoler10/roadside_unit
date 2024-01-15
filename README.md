@@ -84,3 +84,19 @@ debugging_pkg
 ```
 rosrun debugging_pkg visualizer
 ```
+
+Connecting two devices via WLAN and ROS
+----
+Server device (where roscore will be running):
+```
+export ROS_MASTER_URI=http://10.42.0.85:11311
+export ROS_HOSTNAME=10.42.0.85
+```
+Client device:
+```
+export ROS_MASTER_URI=http://10.42.0.85:11311
+export ROS_HOSTNAME=10.42.0.1
+```
+The IPs shown correspond to the HP (85) and Max (1) laptops when connected to Max's hotspot.
+
+
