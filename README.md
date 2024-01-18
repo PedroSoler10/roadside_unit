@@ -1,5 +1,6 @@
 roadside_unit
-====This project is part of my master thesis: "Implementation of a System to Infrastructure System for Autonomous Vehicles"
+====
+This project is part of my master thesis: "Implementation of a System to Infrastructure System for Autonomous Vehicles"
 
 Set up GitHub
 ------
