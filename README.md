@@ -91,6 +91,8 @@ rosrun debugging_pkg visualizer.py
 ```
 darkent_ros
 ----
+https://github.com/leggedrobotics/darknet_ros/tree/master
+
     cd catkin_workspace/src
     git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
     cd ../
