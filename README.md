@@ -24,12 +24,17 @@ cat ~/.ssh/max_laptop.pub
 
 Clone repository:
 ```
-git clone git@github.com:PedroSoler10/camera_infrastructure.git
+git clone git@github.com:PedroSoler10/roadside_unit.git
 ```
 
 Create a catkin_workspace
 ----
 http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+```
+mkdir -p catkin_workspace/src
+cd catkin_workspace
+catkin_make
+```
 
 Create a ROS package
 ----
@@ -100,3 +105,29 @@ export ROS_HOSTNAME=10.42.0.1
 The IPs shown correspond to the HP (85) and Max (1) laptops when connected to Max's hotspot.
 
 
+
+Manual
+----
+Just the first time:
+```
+cd
+git clone git@github.com:PedroSoler10/roadside_unit.git
+cd roadside_unit
+chmod +x src/perception_pkg/src/tennis_ball_tracking.py
+chmod +x src/perception_pkg/src/scenario_classification.py
+chmod +x src/debugging_pkg/src/visualizer.py
+catkin_make
+roslaunch ./launch/usb_cam-test.launch video_device:=/dev/video2 image_view:=true image_view_topic:=/tennis_ball_image
+rosrun perception_pkg tennis_ball_tracking.py
+rosrun perception_pkg scenario_classification.py
+rosrun debugging_pkg visualizer.py
+```
+Every time the code is modified
+```
+catkin_make
+source/devel/install/setup.bash
+roslaunch ./launch/usb_cam-test.launch video_device:=/dev/video2 image_view:=true image_view_topic:=/tennis_ball_image
+rosrun perception_pkg tennis_ball_tracking.py
+rosrun perception_pkg scenario_classification.py
+rosrun debugging_pkg visualizer.py
+```
