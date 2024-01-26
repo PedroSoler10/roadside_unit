@@ -73,16 +73,16 @@ roslaunch ./launch/usb_cam-test.launch video_device:=/dev/video2 image_view:=tru
 perception_pkg
 ----
 ```
-rosrun perception_pkg tennis_ball_tracking
+rosrun perception_pkg tennis_ball_tracking.py
 ```
 ```
-rosrun perception_pkg scenario_classification
+rosrun perception_pkg scenario_classification.py
 ```
 
 debugging_pkg
 ----
 ```
-rosrun debugging_pkg visualizer
+rosrun debugging_pkg visualizer.py
 ```
 
 Connecting two devices via WLAN and ROS
