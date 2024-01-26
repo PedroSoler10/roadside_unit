@@ -89,6 +89,13 @@ debugging_pkg
 ```
 rosrun debugging_pkg visualizer.py
 ```
+YOLO Ultralytics
+----
+
+https://github.com/ultralytics
+
+https://docs.ultralytics.com/quickstart/
+
 darkent_ros
 ----
 https://github.com/leggedrobotics/darknet_ros/tree/master
