@@ -89,6 +89,19 @@ debugging_pkg
 ```
 rosrun debugging_pkg visualizer.py
 ```
+darkent_ros
+----
+    cd catkin_workspace/src
+    git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
+    cd ../
+    catkin_make -DCMAKE_BUILD_TYPE=Release
+    gedit src/darknet_ros/darknet_ros/config/ros.yaml
+Change the predefined topic names to the proyect ones:
+
+  /camera/rgb/image_raw --> /usb_cam/image_raw
+    
+    source devel/setup.bash
+    roslaunch darknet_ros darknet_ros.launch
 
 Connecting two devices via WLAN and ROS
 ----
@@ -116,8 +129,11 @@ cd roadside_unit
 chmod +x src/perception_pkg/src/tennis_ball_tracking.py
 chmod +x src/perception_pkg/src/scenario_classification.py
 chmod +x src/debugging_pkg/src/visualizer.py
-catkin_make
+gedit src/darknet_ros/darknet_ros/config/ros.yaml
+catkin_make -DCMAKE_BUILD_TYPE=Release
+source devel/setup.bash
 roslaunch ./launch/usb_cam-test.launch video_device:=/dev/video2 image_view:=true image_view_topic:=/tennis_ball_image
+roslaunch darknet_ros darknet_ros.launch
 rosrun perception_pkg tennis_ball_tracking.py
 rosrun perception_pkg scenario_classification.py
 rosrun debugging_pkg visualizer.py
@@ -125,8 +141,9 @@ rosrun debugging_pkg visualizer.py
 Every time the code is modified
 ```
 catkin_make
-source/devel/install/setup.bash
+source devel/setup.bash
 roslaunch ./launch/usb_cam-test.launch video_device:=/dev/video2 image_view:=true image_view_topic:=/tennis_ball_image
+roslaunch darknet_ros darknet_ros.launch
 rosrun perception_pkg tennis_ball_tracking.py
 rosrun perception_pkg scenario_classification.py
 rosrun debugging_pkg visualizer.py
