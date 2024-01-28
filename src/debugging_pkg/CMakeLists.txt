@@ -117,10 +117,10 @@ CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
+# include_directories(
 # include
-  ${catkin_INCLUDE_DIRS}
-)
+  # ${catkin_INCLUDE_DIRS}
+# )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}

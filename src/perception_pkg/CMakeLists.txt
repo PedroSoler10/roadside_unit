@@ -107,7 +107,12 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES perception
-CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
+CATKIN_DEPENDS
+  rospy
+  std_msgs
+  geometry_msgs
+  sensor_msgs
+  cv_bridge
 #  DEPENDS system_lib
 )
 

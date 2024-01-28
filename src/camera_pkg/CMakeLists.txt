@@ -8,11 +8,11 @@ project(camera_pkg)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  rospy
-  std_msgs
-  geometry_msgs
-  sensor_msgs
   cv_bridge
+  geometry_msgs
+  rospy
+  sensor_msgs
+  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -72,7 +72,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   sensor_msgs
+#   geometry_msgs#   sensor_msgs#   std_msgs
 # )
 
 ################################################
@@ -107,7 +107,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES camera_pkg
-CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
+#  CATKIN_DEPENDS cv_bridge geometry_msgs rospy sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
 
@@ -117,10 +117,10 @@ CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-# include_directories(
+include_directories(
 # include
-#   ${catkin_INCLUDE_DIRS}
-# )
+  ${catkin_INCLUDE_DIRS}
+)
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -206,9 +206,3 @@ CATKIN_DEPENDS rospy std_msgs geometry_msgs sensor_msgs cv_bridge
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
-# install(PROGRAMS
-#   src/camera_publisher.py
-#   src/tennis_ball_detector.py
-#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
