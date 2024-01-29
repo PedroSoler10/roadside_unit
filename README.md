@@ -179,3 +179,31 @@ Be ware of compatibility with yours, you may need to delete the link afterwards 
 cd /usr/include
 sudo ln -s opencv4/ opencv
 ```
+
+ssh
+----
+Both devices should be connected to a common network like the laptop's hotspot.
+
+TX2:
+
+For the first time:
+
+```
+sudo apt-get install openssh-server
+sudo systemctl status ssh
+sudo systemctl start ssh
+ip addr show
+```
+Configure the WiFi connection to the laptop hotspot to:
+
+Automatically connect to this network when it is available
+
+All users may connect to this network
+
+Laptop:
+
+Turn on the hotspot and log in via ssh with the following command and passwort:
+```
+ssh tx2@10.42.0.47
+tx2
+```
