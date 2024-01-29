@@ -157,3 +157,25 @@ rosrun perception_pkg tennis_ball_tracking.py
 rosrun perception_pkg scenario_classification.py
 rosrun debugging_pkg visualizer.py
 ```
+
+Issues
+-----
+opencv instead of opencv4
+----
+CMake Error at /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake:113 (message):
+  Project 'cv_bridge' specifies '/usr/include/opencv' as an include dir,
+  which is not found.  It does neither exist as an absolute directory nor in
+  '${{prefix}}//usr/include/opencv'.  Check the issue tracker
+  'https://github.com/ros-perception/vision_opencv/issues' and consider
+  creating a ticket if the problem has not been reported yet.
+https://github.com/ros-perception/vision_opencv/issues/389
+
+Had the same issue, the above fixed my compiler needs.
+Be ware of compatibility with yours, you may need to delete the link afterwards to not break other cmake runs that use/expect other versions of opencv.
+
+"Problem" is the static / hardcoded libraries in cv_bridge cmake file.
+
+```
+cd /usr/include
+sudo ln -s opencv4/ opencv
+```
