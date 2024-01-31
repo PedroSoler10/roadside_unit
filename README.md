@@ -207,3 +207,8 @@ Turn on the hotspot and log in via ssh with the following command and passwort:
 ssh tx2@10.42.0.47
 tx2
 ```
+
+Note: If suddenly the hotspot can't be turned on, restart the network manager by:
+```
+sudo systemctl restart NetworkManager
+```
