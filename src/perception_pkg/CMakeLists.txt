@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(perception_pkg)
 
+
+# locate dependencies
+find_package(jetson-utils REQUIRED)
+find_package(jetson-inference REQUIRED)
+
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 
