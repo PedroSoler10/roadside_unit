@@ -212,3 +212,25 @@ Note: If suddenly the hotspot can't be turned on, restart the network manager by
 ```
 sudo systemctl restart NetworkManager
 ```
+
+Jetson TX2
+----
+Video Source:
+*Params:
+  *resource(arg input): source from the video
+    */dev/video1: usb camera
+    *csi://0: integrated camera
+*Subscribes to: none
+*Publishes to:
+  */video_source/raw
+```
+roslaunch ros_deep_learning video_source.ros1.launch input:=/dev/video1
+```
+Video Output:
+*Params:
+  *resource (arg output):
+    *display://0
+*Subscribes to:
+  *video_output/image_in (arg topic):
+*Publishes to:
+  
