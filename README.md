@@ -213,8 +213,13 @@ Note: If suddenly the hotspot can't be turned on, restart the network manager by
 sudo systemctl restart NetworkManager
 ```
 
-NVIDIA Jetson TX2 SW - jetson-inference & ros_deep_learning & DeepStream
+NVIDIA Jetson TX2 SW - jetson-stats & jetson-inference & ros_deep_learning & DeepStream
 ----
+https://github.com/rbonghi/jetson_stats
+
+jtop
+![NVIDIA Jetson TX2 info](https://github.com/PedroSoler10/roadside_unit/assets/74536059/84dbe3e8-97d3-4ba7-bfa2-5a2efc8ebbde)
+
 https://github.com/dusty-nv/jetson-inference
 
 https://github.com/dusty-nv/ros_deep_learning
