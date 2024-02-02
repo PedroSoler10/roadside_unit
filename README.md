@@ -126,6 +126,9 @@ export ROS_HOSTNAME=10.42.0.1
 ```
 The IPs shown correspond to the HP (85) and Max (1) laptops when connected to Max's hotspot.
 
+http://wiki.ros.org/ROS/Tutorials/MultipleMachines
+
+http://wiki.ros.org/ROS/NetworkSetup
 
 
 Manual
