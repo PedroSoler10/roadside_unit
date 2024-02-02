@@ -1,0 +1,22 @@
+<launch>
+  
+  <arg name="video_device" default="/dev/video1" />
+  <arg name="image_view" default="true" />
+  <arg name="image_view_topic" default="/tennis_ball_image" />
+  
+
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="video_device" value="$(arg video_device)" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="color_format" value="yuv422p" />
+    <param name="camera_frame_id" value="usb_cam" />
+    <param name="io_method" value="mmap"/>
+  </node>
+
+  <node name="image_view" pkg="image_view" type="image_view" respawn="false" output="screen" if="$(arg image_view)">
+    <remap from="image" to="tennis_ball_image"/>
+    <param name="autosize" value="true" />
+  </node>
+</launch>

@@ -157,3 +157,91 @@ rosrun perception_pkg tennis_ball_tracking.py
 rosrun perception_pkg scenario_classification.py
 rosrun debugging_pkg visualizer.py
 ```
+
+Issues
+-----
+opencv instead of opencv4
+----
+CMake Error at /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake:113 (message):
+  Project 'cv_bridge' specifies '/usr/include/opencv' as an include dir,
+  which is not found.  It does neither exist as an absolute directory nor in
+  '${{prefix}}//usr/include/opencv'.  Check the issue tracker
+  'https://github.com/ros-perception/vision_opencv/issues' and consider
+  creating a ticket if the problem has not been reported yet.
+https://github.com/ros-perception/vision_opencv/issues/389
+
+Had the same issue, the above fixed my compiler needs.
+Be ware of compatibility with yours, you may need to delete the link afterwards to not break other cmake runs that use/expect other versions of opencv.
+
+"Problem" is the static / hardcoded libraries in cv_bridge cmake file.
+
+```
+cd /usr/include
+sudo ln -s opencv4/ opencv
+```
+
+ssh
+----
+Both devices should be connected to a common network like the laptop's hotspot.
+
+TX2:
+
+For the first time:
+
+```
+sudo apt-get install openssh-server
+sudo systemctl status ssh
+sudo systemctl start ssh
+ip addr show
+```
+Configure the WiFi connection to the laptop hotspot to:
+
+Automatically connect to this network when it is available
+
+All users may connect to this network
+
+Laptop:
+
+Turn on the hotspot and log in via ssh with the following command and passwort:
+```
+ssh tx2@10.42.0.47
+tx2
+```
+
+Note: If suddenly the hotspot can't be turned on, restart the network manager by:
+```
+sudo systemctl restart NetworkManager
+```
+
+NVIDIA Jetson TX2 SW - jetson-stats & jetson-inference & ros_deep_learning & DeepStream
+----
+https://github.com/rbonghi/jetson_stats
+
+jtop
+![NVIDIA Jetson TX2 info](https://github.com/PedroSoler10/roadside_unit/assets/74536059/84dbe3e8-97d3-4ba7-bfa2-5a2efc8ebbde)
+
+https://github.com/dusty-nv/jetson-inference
+
+https://github.com/dusty-nv/ros_deep_learning
+
+https://docs.nvidia.com/metropolis/deepstream/6.0.1/dev-guide/text/DS_Quickstart.html
+
+Video Source:
+*Params:
+  *resource(arg input): source from the video
+    */dev/video1: usb camera
+    *csi://0: integrated camera
+*Subscribes to: none
+*Publishes to:
+  */video_source/raw
+```
+roslaunch ros_deep_learning video_source.ros1.launch input:=/dev/video1
+```
+Video Output:
+*Params:
+  *resource (arg output):
+    *display://0
+*Subscribes to:
+  *video_output/image_in (arg topic):
+*Publishes to:
+  
