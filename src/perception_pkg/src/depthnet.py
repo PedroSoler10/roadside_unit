@@ -36,11 +36,12 @@ class DepthNet:
 
 
     def callback(self, data):
-        try:
-            # Convert the image from ROS to OpenCV format
-            cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
-        except CvBridgeError as e:
-            print(e)
+        // convert the image to reside on GPU
+        if( !input_cvt || !input_cvt->Convert(input) )
+        {
+            ROS_INFO("failed to convert %ux%u %s image", input->width, input->height, input->encoding.c_str());
+            return;	
+        }
 
         self.net.Process(cv_image)
         jetson.utils.cudaDeviceSynchronize() # wait for GPU to finish processing, so we can use the results on CPU
