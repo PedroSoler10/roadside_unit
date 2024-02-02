@@ -18,6 +18,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   sensor_msgs
   cv_bridge
+  vision_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -118,6 +119,7 @@ CATKIN_DEPENDS
   geometry_msgs
   sensor_msgs
   cv_bridge
+  vision_msgs
 #  DEPENDS system_lib
 )
 

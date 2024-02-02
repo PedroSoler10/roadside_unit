@@ -1,0 +1,17 @@
+<launch>
+	<!-- VIDEO SOURCE -->
+	<arg name="input" default="csi://0"/>
+	<!-- <arg name="input" default="/dev/video1"/> -->
+	<arg name="input_width" default="0"/>
+	<arg name="input_height" default="0"/>
+	<arg name="input_codec" default="unknown"/>
+	<arg name="input_loop" default="0"/>
+
+	<include file="$(find ros_deep_learning)/launch/video_source.ros1.launch">
+		<arg name="input" value="$(arg input)"/>
+		<arg name="input_width" value="$(arg input_width)"/>
+		<arg name="input_height" value="$(arg input_height)"/>
+		<arg name="input_codec" value="$(arg input_codec)"/>
+		<arg name="input_loop" value="$(arg input_loop)"/>
+	</include>
+</launch>
