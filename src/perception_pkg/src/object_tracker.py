@@ -82,7 +82,7 @@ class ObjectTracker:
 
     def init_pose_estimator(self):
         # Read the YAML file
-        yaml_file = os.path.join(os.getcwd(), 'launch/ost_2.yaml')
+        yaml_file = os.path.join(os.getcwd(), 'src/perception_pkg/camera_calibration/c505e.yaml')
         with open(yaml_file, 'r') as file:
             camera_parameters = yaml.safe_load(file)
 

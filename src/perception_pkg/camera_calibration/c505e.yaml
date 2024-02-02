@@ -1,17 +1,17 @@
-image_width: 640
-image_height: 480
-camera_name: narrow_stereo
+image_width: 1280
+image_height: 720
+camera_name: c505e
 camera_matrix:
   rows: 3
   cols: 3
-  data: [835.79849,   0.     , 303.31821,
-           0.     , 837.71055, 247.25766,
+  data: [1454.679088,   0.     , 620.534997,
+           0.     , 1448.817368, 406.473447,
            0.     ,   0.     ,   1.     ]
 distortion_model: plumb_bob
 distortion_coefficients:
   rows: 1
   cols: 5
-  data: [0.127660, -0.120863, -0.001053, -0.000237, 0.000000]
+  data: [0.097839, -0.059646, 0.006660, 0.010096, 0.000000]
 rectification_matrix:
   rows: 3
   cols: 3
@@ -21,6 +21,6 @@ rectification_matrix:
 projection_matrix:
   rows: 3
   cols: 4
-  data: [853.7735 ,   0.     , 303.07162,   0.     ,
-           0.     , 855.26984, 246.32894,   0.     ,
+  data: [1483.514832 ,   0.     , 629.394887,   0.     ,
+           0.     , 1475.170373,  408.852193,   0.     ,
            0.     ,   0.     ,   1.     ,   0.     ]
