@@ -1,0 +1,205 @@
+[1.346s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.347s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb525c128>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb525c128>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb525c470>)
+[1.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.431s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tx2/roadside_unit_ros2'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'ignore'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'ignore_ament_install'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['colcon_pkg']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'colcon_pkg'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['colcon_meta']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'colcon_meta'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extensions ['ros']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pkg) by extension 'ros'
+[1.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pkg' with type 'ros.ament_python' and name 'perception_pkg'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'ignore'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'ignore_ament_install'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['colcon_pkg']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'colcon_pkg'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['colcon_meta']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'colcon_meta'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['ros']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'ros'
+[1.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_deep_learning' with type 'ros.ament_cmake' and name 'ros_deep_learning'
+[1.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.591s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tx2/roadside_unit_ros2/install
+[1.597s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 236 installed packages in /opt/ros/eloquent
+[1.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_target' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.885s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.885s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.885s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.885s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.886s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.886s] Level 5:colcon.colcon_core.verb:set package 'perception_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.887s] DEBUG:colcon.colcon_core.verb:Building package 'perception_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tx2/roadside_unit_ros2/build/perception_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tx2/roadside_unit_ros2/install/perception_pkg', 'merge_install': False, 'path': '/home/tx2/roadside_unit_ros2/src/perception_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.890s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_args' from command line to 'None'
+[1.890s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_target' from command line to 'None'
+[1.890s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.890s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_clean_cache' from command line to 'False'
+[1.890s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_clean_first' from command line to 'False'
+[1.890s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_force_configure' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'ament_cmake_args' from command line to 'None'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'catkin_cmake_args' from command line to 'None'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.891s] DEBUG:colcon.colcon_core.verb:Building package 'ros_deep_learning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tx2/roadside_unit_ros2/build/ros_deep_learning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tx2/roadside_unit_ros2/install/ros_deep_learning', 'merge_install': False, 'path': '/home/tx2/roadside_unit_ros2/src/ros_deep_learning', 'symlink_install': False, 'test_result_base': None}
+[1.892s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.896s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tx2/roadside_unit_ros2/src/perception_pkg' with build type 'ament_python'
+[1.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pkg', 'ament_prefix_path')
+[1.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/hook/ament_prefix_path.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/hook/ament_prefix_path.dsv'
+[1.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/hook/ament_prefix_path.sh'
+[1.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tx2/roadside_unit_ros2/src/ros_deep_learning' with build type 'ament_cmake'
+[1.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tx2/roadside_unit_ros2/src/ros_deep_learning'
+[1.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.057s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tx2/roadside_unit_ros2/src/perception_pkg'
+[3.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning -- -j4 -l4
+[3.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning -- -j4 -l4
+[3.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning --target install -- -j4 -l4
+[4.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_deep_learning)
+[4.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning --target install -- -j4 -l4
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning' for CMake module files
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning' for CMake config files
+[4.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_deep_learning', 'cmake_prefix_path')
+[4.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.ps1'
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.dsv'
+[4.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.sh'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/bin'
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/pkgconfig/ros_deep_learning.pc'
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/python3.6/site-packages'
+[4.267s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/bin'
+[4.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.ps1'
+[4.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.dsv'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.sh'
+[4.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.bash'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.zsh'
+[4.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/colcon-core/packages/ros_deep_learning)
+[4.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_deep_learning)
+[4.434s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning' for CMake module files
+[4.437s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning' for CMake config files
+[4.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_deep_learning', 'cmake_prefix_path')
+[4.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.ps1'
+[4.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.dsv'
+[4.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.sh'
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib'
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/bin'
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/pkgconfig/ros_deep_learning.pc'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/python3.6/site-packages'
+[4.450s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/bin'
+[4.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.ps1'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.dsv'
+[4.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.sh'
+[4.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.bash'
+[4.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.zsh'
+[4.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/colcon-core/packages/ros_deep_learning)
+[4.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tx2/roadside_unit_ros2/src/perception_pkg': PYTHONPATH=/home/tx2/roadside_unit_ros2/build/perception_pkg/prefix_override:/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /home/tx2/roadside_unit_ros2/build/perception_pkg/build install --record /home/tx2/roadside_unit_ros2/build/perception_pkg/install.log --install-scripts $base/lib/perception_pkg --single-version-externally-managed
+[6.242s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/perception_pkg' for CMake module files
+[6.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tx2/roadside_unit_ros2/src/perception_pkg' returned '0': PYTHONPATH=/home/tx2/roadside_unit_ros2/build/perception_pkg/prefix_override:/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /home/tx2/roadside_unit_ros2/build/perception_pkg/build install --record /home/tx2/roadside_unit_ros2/build/perception_pkg/install.log --install-scripts $base/lib/perception_pkg --single-version-externally-managed
+[6.247s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/perception_pkg' for CMake config files
+[6.250s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/perception_pkg/lib'
+[6.251s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/perception_pkg/bin'
+[6.251s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/pkgconfig/perception_pkg.pc'
+[6.252s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages'
+[6.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pkg', 'pythonpath')
+[6.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/hook/pythonpath.ps1'
+[6.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/hook/pythonpath.dsv'
+[6.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/hook/pythonpath.sh'
+[6.260s] Level 1:colcon.colcon_core.environment:checking '/home/tx2/roadside_unit_ros2/install/perception_pkg/bin'
+[6.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_pkg)
+[6.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/package.ps1'
+[6.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/package.dsv'
+[6.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/package.sh'
+[6.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/package.bash'
+[6.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg/package.zsh'
+[6.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tx2/roadside_unit_ros2/install/perception_pkg/share/colcon-core/packages/perception_pkg)
+[6.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.274s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.295s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.296s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.582s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tx2/roadside_unit_ros2/install/local_setup.ps1'
+[6.596s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tx2/roadside_unit_ros2/install/_local_setup_util_ps1.py'
+[6.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tx2/roadside_unit_ros2/install/setup.ps1'
+[6.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tx2/roadside_unit_ros2/install/local_setup.sh'
+[6.612s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tx2/roadside_unit_ros2/install/_local_setup_util_sh.py'
+[6.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tx2/roadside_unit_ros2/install/setup.sh'
+[6.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tx2/roadside_unit_ros2/install/local_setup.bash'
+[6.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tx2/roadside_unit_ros2/install/setup.bash'
+[6.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tx2/roadside_unit_ros2/install/local_setup.zsh'
+[6.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tx2/roadside_unit_ros2/install/setup.zsh'

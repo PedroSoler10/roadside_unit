@@ -1,0 +1,18 @@
+detected ROS_DISTRO=ROS_ELOQUENT
+CMake Warning at CMakeLists.txt:19 (find_package):
+  By not providing "FindVPI.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "VPI", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "VPI" (requested
+  version 2.0) with any of the following names:
+
+    VPIConfig.cmake
+    vpi-config.cmake
+
+  Add the installation prefix of "VPI" to CMAKE_PREFIX_PATH or set "VPI_DIR"
+  to a directory containing one of the above files.  If "VPI" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+detected ROS2 (ament_cmake)

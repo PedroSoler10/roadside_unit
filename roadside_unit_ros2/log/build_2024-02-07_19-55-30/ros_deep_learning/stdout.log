@@ -1,0 +1,45 @@
+[ 20%] Built target segnet
+[ 40%] Built target detectnet
+[ 60%] Built target video_output
+[ 80%] Built target imagenet
+[100%] Built target video_source
+[ 20%] Built target video_output
+[ 40%] Built target imagenet
+[ 60%] Built target segnet
+[ 80%] Built target detectnet
+[100%] Built target video_source
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/segnet
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_source
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_output
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+-- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.xml

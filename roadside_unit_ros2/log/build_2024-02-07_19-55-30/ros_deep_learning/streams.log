@@ -1,0 +1,49 @@
+[1.081s] Invoking command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning -- -j4 -l4
+[1.506s] [ 20%] Built target segnet
+[1.514s] [ 40%] Built target detectnet
+[1.527s] [ 60%] Built target video_output
+[1.540s] [ 80%] Built target imagenet
+[1.649s] [100%] Built target video_source
+[1.694s] Invoked command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning -- -j4 -l4
+[1.867s] Invoking command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning --target install -- -j4 -l4
+[2.132s] [ 20%] Built target video_output
+[2.166s] [ 40%] Built target imagenet
+[2.180s] [ 60%] Built target segnet
+[2.200s] [ 80%] Built target detectnet
+[2.334s] [100%] Built target video_source
+[2.469s] [36mInstall the project...[0m
+[2.509s] -- Install configuration: ""
+[2.512s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+[2.519s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+[2.523s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/segnet
+[2.524s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_source
+[2.525s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_output
+[2.527s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch
+[2.530s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+[2.532s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+[2.533s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+[2.533s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+[2.537s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+[2.540s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+[2.541s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+[2.542s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+[2.544s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+[2.545s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+[2.546s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+[2.546s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+[2.547s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+[2.550s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+[2.552s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+[2.553s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+[2.556s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+[2.557s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+[2.559s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+[2.560s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+[2.563s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+[2.563s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+[2.564s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+[2.565s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+[2.566s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+[2.568s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+[2.569s] -- Up-to-date: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.xml
+[2.575s] Invoked command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning --target install -- -j4 -l4

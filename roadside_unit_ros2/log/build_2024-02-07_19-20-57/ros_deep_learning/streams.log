@@ -1,0 +1,135 @@
+[1.084s] Invoking command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake /home/tx2/roadside_unit_ros2/src/ros_deep_learning -DCMAKE_INSTALL_PREFIX=/home/tx2/roadside_unit_ros2/install/ros_deep_learning
+[1.272s] -- The C compiler identification is GNU 7.5.0
+[1.420s] -- The CXX compiler identification is GNU 7.5.0
+[1.431s] -- Check for working C compiler: /usr/bin/cc
+[1.642s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.643s] -- Detecting C compiler ABI info
+[1.855s] -- Detecting C compiler ABI info - done
+[1.869s] -- Detecting C compile features
+[2.504s] -- Detecting C compile features - done
+[2.511s] -- Check for working CXX compiler: /usr/bin/c++
+[2.748s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.749s] -- Detecting CXX compiler ABI info
+[3.000s] -- Detecting CXX compiler ABI info - done
+[3.014s] -- Detecting CXX compile features
+[4.033s] -- Detecting CXX compile features - done
+[4.073s] -- Looking for pthread.h
+[4.297s] -- Looking for pthread.h - found
+[4.298s] -- Looking for pthread_create
+[4.536s] -- Looking for pthread_create - not found
+[4.537s] -- Looking for pthread_create in pthreads
+[4.731s] -- Looking for pthread_create in pthreads - not found
+[4.731s] -- Looking for pthread_create in pthread
+[4.947s] -- Looking for pthread_create in pthread - found
+[4.950s] -- Found Threads: TRUE  
+[5.005s] -- Found CUDA: /usr/local/cuda (found version "10.2") 
+[5.053s] detected ROS_DISTRO=ROS_ELOQUENT
+[5.099s] CMake Warning at CMakeLists.txt:19 (find_package):
+[5.099s]   By not providing "FindVPI.cmake" in CMAKE_MODULE_PATH this project has
+[5.100s]   asked CMake to find a package configuration file provided by "VPI", but
+[5.100s]   CMake did not find one.
+[5.100s] 
+[5.101s]   Could not find a package configuration file provided by "VPI" (requested
+[5.101s]   version 2.0) with any of the following names:
+[5.101s] 
+[5.102s]     VPIConfig.cmake
+[5.102s]     vpi-config.cmake
+[5.102s] 
+[5.103s]   Add the installation prefix of "VPI" to CMAKE_PREFIX_PATH or set "VPI_DIR"
+[5.103s]   to a directory containing one of the above files.  If "VPI" provides a
+[5.103s]   separate development package or SDK, be sure it has been installed.
+[5.104s] 
+[5.104s] 
+[5.214s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.214s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.117s] detected ROS2 (ament_cmake)
+[6.123s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[6.204s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[6.373s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[6.377s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.524s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[6.546s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[6.615s] -- Found vision_msgs: 2.0.0 (/opt/ros/eloquent/share/vision_msgs/cmake)
+[7.634s] -- Configuring done
+[7.814s] -- Generating done
+[7.820s] -- Build files have been written to: /home/tx2/roadside_unit_ros2/build/ros_deep_learning
+[7.836s] Invoked command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake /home/tx2/roadside_unit_ros2/src/ros_deep_learning -DCMAKE_INSTALL_PREFIX=/home/tx2/roadside_unit_ros2/install/ros_deep_learning
+[7.849s] Invoking command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning -- -j4 -l4
+[7.994s] [35m[1mScanning dependencies of target imagenet[0m
+[7.995s] [35m[1mScanning dependencies of target segnet[0m
+[7.996s] [35m[1mScanning dependencies of target video_output[0m
+[7.998s] [35m[1mScanning dependencies of target detectnet[0m
+[8.133s] [  5%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o[0m
+[8.153s] [ 10%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/node_segnet.cpp.o[0m
+[8.170s] [ 15%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o[0m
+[8.189s] [ 20%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/node_video_output.cpp.o[0m
+[20.325s] [ 25%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/image_converter.cpp.o[0m
+[23.306s] [ 30%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/image_converter.cpp.o[0m
+[24.884s] [ 35%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/image_converter.cpp.o[0m
+[24.941s] [ 40%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/image_converter.cpp.o[0m
+[25.558s] [ 45%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/ros_compat.cpp.o[0m
+[28.202s] [ 50%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/ros_compat.cpp.o[0m
+[29.602s] [ 55%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/ros_compat.cpp.o[0m
+[29.723s] [ 60%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/ros_compat.cpp.o[0m
+[30.252s] [ 65%] [32m[1mLinking CXX executable video_output[0m
+[31.526s] [ 65%] Built target video_output
+[31.565s] [35m[1mScanning dependencies of target video_source[0m
+[31.821s] [ 70%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/node_video_source.cpp.o[0m
+[32.854s] [ 75%] [32m[1mLinking CXX executable segnet[0m
+[34.236s] [ 80%] [32m[1mLinking CXX executable imagenet[0m
+[34.545s] [ 80%] Built target segnet
+[34.588s] [ 85%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/image_converter.cpp.o[0m
+[34.668s] [ 90%] [32m[1mLinking CXX executable detectnet[0m
+[36.008s] [ 90%] Built target imagenet
+[36.043s] [ 95%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/ros_compat.cpp.o[0m
+[36.480s] [ 95%] Built target detectnet
+[41.042s] [100%] [32m[1mLinking CXX executable video_source[0m
+[42.051s] [100%] Built target video_source
+[42.101s] Invoked command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning -- -j4 -l4
+[42.294s] Invoking command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning --target install -- -j4 -l4
+[42.538s] [ 20%] Built target video_output
+[42.539s] [ 40%] Built target imagenet
+[42.543s] [ 60%] Built target segnet
+[42.546s] [ 80%] Built target detectnet
+[42.657s] [100%] Built target video_source
+[42.723s] [36mInstall the project...[0m
+[42.753s] -- Install configuration: ""
+[42.754s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+[42.763s] -- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/imagenet" to ""
+[42.763s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+[42.772s] -- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/detectnet" to ""
+[42.772s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/segnet
+[42.780s] -- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/segnet" to ""
+[42.781s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_source
+[42.786s] -- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_source" to ""
+[42.786s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_output
+[42.793s] -- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_output" to ""
+[42.793s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch
+[42.794s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+[42.794s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+[42.795s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+[42.795s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+[42.796s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+[42.796s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+[42.796s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+[42.797s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+[42.797s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+[42.798s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+[42.798s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+[42.798s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+[42.799s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+[42.799s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+[42.800s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+[42.800s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+[42.801s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+[42.801s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+[42.801s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+[42.802s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+[42.802s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+[42.803s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+[42.803s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+[42.803s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+[42.804s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+[42.804s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+[42.805s] -- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.xml
+[42.818s] Invoked command in '/home/tx2/roadside_unit_ros2/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/tx2/roadside_unit_ros2/build/ros_deep_learning --target install -- -j4 -l4

@@ -1,0 +1,23 @@
+[6.588s] Invoking command in '/home/tx2/roadside_unit_ros2/src/perception_pkg': PYTHONPATH=/home/tx2/roadside_unit_ros2/build/perception_pkg/prefix_override:/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /home/tx2/roadside_unit_ros2/build/perception_pkg/build install --record /home/tx2/roadside_unit_ros2/build/perception_pkg/install.log --install-scripts $base/lib/perception_pkg --single-version-externally-managed
+[8.859s] running egg_info
+[8.862s] writing ../../build/perception_pkg/perception_pkg.egg-info/PKG-INFO
+[8.870s] writing dependency_links to ../../build/perception_pkg/perception_pkg.egg-info/dependency_links.txt
+[8.882s] writing entry points to ../../build/perception_pkg/perception_pkg.egg-info/entry_points.txt
+[8.886s] writing requirements to ../../build/perception_pkg/perception_pkg.egg-info/requires.txt
+[8.888s] writing top-level names to ../../build/perception_pkg/perception_pkg.egg-info/top_level.txt
+[9.190s] reading manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'
+[9.204s] writing manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'
+[9.205s] running build
+[9.206s] running build_py
+[9.210s] running install
+[9.217s] running install_lib
+[9.227s] running install_data
+[9.231s] running install_egg_info
+[9.253s] removing '/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg-0.0.0-py3.6.egg-info' (and everything under it)
+[9.254s] Copying ../../build/perception_pkg/perception_pkg.egg-info to /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg-0.0.0-py3.6.egg-info
+[9.263s] running install_scripts
+[9.387s] Installing distance_estimator script to /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/perception_pkg
+[9.388s] Installing scenario_classificator script to /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/perception_pkg
+[9.389s] Installing scenario_visualizer script to /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/perception_pkg
+[9.392s] writing list of installed files to '/home/tx2/roadside_unit_ros2/build/perception_pkg/install.log'
+[9.546s] Invoked command in '/home/tx2/roadside_unit_ros2/src/perception_pkg' returned '0': PYTHONPATH=/home/tx2/roadside_unit_ros2/build/perception_pkg/prefix_override:/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /home/tx2/roadside_unit_ros2/build/perception_pkg/build install --record /home/tx2/roadside_unit_ros2/build/perception_pkg/install.log --install-scripts $base/lib/perception_pkg --single-version-externally-managed

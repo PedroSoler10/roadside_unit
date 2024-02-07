@@ -1,0 +1,613 @@
+[0.000000] (-) TimerEvent: {}
+[0.003571] (perception_pkg) JobQueued: {'identifier': 'perception_pkg', 'dependencies': OrderedDict()}
+[0.003831] (ros_deep_learning) JobQueued: {'identifier': 'ros_deep_learning', 'dependencies': OrderedDict()}
+[0.004008] (perception_pkg) JobStarted: {'identifier': 'perception_pkg'}
+[0.066820] (ros_deep_learning) JobStarted: {'identifier': 'ros_deep_learning'}
+[0.098655] (-) TimerEvent: {}
+[0.199941] (-) TimerEvent: {}
+[0.300883] (-) TimerEvent: {}
+[0.401528] (-) TimerEvent: {}
+[0.502200] (-) TimerEvent: {}
+[0.602972] (-) TimerEvent: {}
+[0.703953] (-) TimerEvent: {}
+[0.804688] (-) TimerEvent: {}
+[0.905327] (-) TimerEvent: {}
+[1.005960] (-) TimerEvent: {}
+[1.106636] (-) TimerEvent: {}
+[1.147131] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'cmake'}
+[1.147963] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '/home/tx2/roadside_unit_ros2/src/ros_deep_learning', '-DCMAKE_INSTALL_PREFIX=/home/tx2/roadside_unit_ros2/install/ros_deep_learning'], 'cwd': '/home/tx2/roadside_unit_ros2/build/ros_deep_learning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'tx2'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('ROS_PACKAGE_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/tx2/roadside_unit_ros2/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tx2'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.4'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('JETSON_MODEL', 'quill'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '6338'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8761'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881d'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tx2'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:44384'), ('JETSON_SERIAL_NUMBER', '0423818033469'), ('JETSON_MODULE', 'NVIDIA Jetson TX2'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Quill'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/pkgconfig'), ('USERNAME', 'tx2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/tx2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'c997d7c0049e408882f411cee51186ae'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/6642,unix/ubuntu:/tmp/.ICE-unix/6642'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra186'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('TERMINATOR_UUID', 'urn:uuid:5b3e587d-266d-4548-a845-80f8a188ccb6'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3310-0000-A0'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '6.2'), ('PWD', '/home/tx2/roadside_unit_ros2/build/ros_deep_learning'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('PYTHONPATH', '/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.4'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent'), ('JETSON_P_NUMBER', 'p3310-1000')]), 'shell': False}
+[1.206952] (-) TimerEvent: {}
+[1.307949] (-) TimerEvent: {}
+[1.339126] (ros_deep_learning) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.408005] (-) TimerEvent: {}
+[1.487514] (ros_deep_learning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.498276] (ros_deep_learning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.508535] (-) TimerEvent: {}
+[1.609228] (-) TimerEvent: {}
+[1.709013] (ros_deep_learning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.709618] (-) TimerEvent: {}
+[1.710452] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.809801] (-) TimerEvent: {}
+[1.910498] (-) TimerEvent: {}
+[1.922265] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.936327] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.010668] (-) TimerEvent: {}
+[2.111425] (-) TimerEvent: {}
+[2.212124] (-) TimerEvent: {}
+[2.312826] (-) TimerEvent: {}
+[2.413551] (-) TimerEvent: {}
+[2.514291] (-) TimerEvent: {}
+[2.571637] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.577849] (ros_deep_learning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.614448] (-) TimerEvent: {}
+[2.715180] (-) TimerEvent: {}
+[2.815051] (ros_deep_learning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.815681] (-) TimerEvent: {}
+[2.816718] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.915902] (-) TimerEvent: {}
+[3.016768] (-) TimerEvent: {}
+[3.050524] (perception_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/perception_pkg', 'build', '--build-base', '/home/tx2/roadside_unit_ros2/build/perception_pkg/build', 'install', '--record', '/home/tx2/roadside_unit_ros2/build/perception_pkg/install.log', '--install-scripts', '$base/lib/perception_pkg', '--single-version-externally-managed'], 'cwd': '/home/tx2/roadside_unit_ros2/src/perception_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'tx2', 'UNITY_HAS_3D_SUPPORT': 'true', 'TEXTDOMAIN': 'im-config', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'ROS_PACKAGE_PATH': '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'OLDPWD': '/home/tx2/roadside_unit_ros2/src', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/tx2', 'DESKTOP_SESSION': 'unity', 'JETSON_L4T': '32.7.4', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'JETSON_MODEL': 'quill', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '6338', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8761', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881d', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/tx2/roadside_unit_ros2/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'tx2', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:44384', 'JETSON_SERIAL_NUMBER': '0423818033469', 'JETSON_MODULE': 'NVIDIA Jetson TX2', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'JETSON_CODENAME': 'Quill', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/pkgconfig', 'USERNAME': 'tx2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/eloquent/bin:/home/tx2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': 'c997d7c0049e408882f411cee51186ae', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/6642,unix/ubuntu:/tmp/.ICE-unix/6642', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra186', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'TERMINATOR_UUID': 'urn:uuid:5b3e587d-266d-4548-a845-80f8a188ccb6', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3310-0000-A0', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '6.2', 'PWD': '/home/tx2/roadside_unit_ros2/build/perception_pkg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'PYTHONPATH': '/home/tx2/roadside_unit_ros2/build/perception_pkg/prefix_override:/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages:/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1', 'JETSON_JETPACK': '4.6.4', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/tx2/roadside_unit_ros2/install/ros_deep_learning', 'JETSON_P_NUMBER': 'p3310-1000'}, 'shell': False}
+[3.067734] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.081616] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.116925] (-) TimerEvent: {}
+[3.217705] (-) TimerEvent: {}
+[3.318436] (-) TimerEvent: {}
+[3.419250] (-) TimerEvent: {}
+[3.519952] (-) TimerEvent: {}
+[3.620677] (-) TimerEvent: {}
+[3.721632] (-) TimerEvent: {}
+[3.822341] (-) TimerEvent: {}
+[3.923117] (-) TimerEvent: {}
+[4.023834] (-) TimerEvent: {}
+[4.082312] (perception_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.084878] (perception_pkg) StdoutLine: {'line': b'creating ../../build/perception_pkg/perception_pkg.egg-info\n'}
+[4.085693] (perception_pkg) StdoutLine: {'line': b'writing ../../build/perception_pkg/perception_pkg.egg-info/PKG-INFO\n'}
+[4.086568] (perception_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/perception_pkg/perception_pkg.egg-info/dependency_links.txt\n'}
+[4.087335] (perception_pkg) StdoutLine: {'line': b'writing entry points to ../../build/perception_pkg/perception_pkg.egg-info/entry_points.txt\n'}
+[4.088111] (perception_pkg) StdoutLine: {'line': b'writing requirements to ../../build/perception_pkg/perception_pkg.egg-info/requires.txt\n'}
+[4.089074] (perception_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/perception_pkg/perception_pkg.egg-info/top_level.txt\n'}
+[4.100360] (ros_deep_learning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.103012] (perception_pkg) StdoutLine: {'line': b"writing manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'\n"}
+[4.123984] (-) TimerEvent: {}
+[4.140247] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.224167] (-) TimerEvent: {}
+[4.255950] (perception_pkg) StdoutLine: {'line': b"reading manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'\n"}
+[4.261134] (perception_pkg) StdoutLine: {'line': b"writing manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'\n"}
+[4.262131] (perception_pkg) StdoutLine: {'line': b'running build\n'}
+[4.262800] (perception_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.263297] (perception_pkg) StdoutLine: {'line': b'creating /home/tx2/roadside_unit_ros2/build/perception_pkg/build\n'}
+[4.263988] (perception_pkg) StdoutLine: {'line': b'creating /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib\n'}
+[4.264462] (perception_pkg) StdoutLine: {'line': b'creating /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib/perception_pkg\n'}
+[4.265124] (perception_pkg) StdoutLine: {'line': b'copying perception_pkg/__init__.py -> /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib/perception_pkg\n'}
+[4.265614] (perception_pkg) StdoutLine: {'line': b'copying perception_pkg/scenario_classificator.py -> /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib/perception_pkg\n'}
+[4.266029] (perception_pkg) StdoutLine: {'line': b'copying perception_pkg/distance_estimator.py -> /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib/perception_pkg\n'}
+[4.266580] (perception_pkg) StdoutLine: {'line': b'running install\n'}
+[4.267158] (perception_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.269206] (perception_pkg) StdoutLine: {'line': b'creating /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg\n'}
+[4.269822] (perception_pkg) StdoutLine: {'line': b'copying /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib/perception_pkg/__init__.py -> /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg\n'}
+[4.270431] (perception_pkg) StdoutLine: {'line': b'copying /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib/perception_pkg/scenario_classificator.py -> /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg\n'}
+[4.271070] (perception_pkg) StdoutLine: {'line': b'copying /home/tx2/roadside_unit_ros2/build/perception_pkg/build/lib/perception_pkg/distance_estimator.py -> /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg\n'}
+[4.272243] (perception_pkg) StdoutLine: {'line': b'byte-compiling /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg/__init__.py to __init__.cpython-36.pyc\n'}
+[4.273041] (perception_pkg) StdoutLine: {'line': b'byte-compiling /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg/scenario_classificator.py to scenario_classificator.cpython-36.pyc\n'}
+[4.275705] (perception_pkg) StdoutLine: {'line': b'byte-compiling /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg/distance_estimator.py to distance_estimator.cpython-36.pyc\n'}
+[4.278434] (perception_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.280529] (perception_pkg) StdoutLine: {'line': b'creating /home/tx2/roadside_unit_ros2/install/perception_pkg/share/ament_index\n'}
+[4.281278] (perception_pkg) StdoutLine: {'line': b'creating /home/tx2/roadside_unit_ros2/install/perception_pkg/share/ament_index/resource_index\n'}
+[4.281840] (perception_pkg) StdoutLine: {'line': b'creating /home/tx2/roadside_unit_ros2/install/perception_pkg/share/ament_index/resource_index/packages\n'}
+[4.282344] (perception_pkg) StdoutLine: {'line': b'copying resource/perception_pkg -> /home/tx2/roadside_unit_ros2/install/perception_pkg/share/ament_index/resource_index/packages\n'}
+[4.282847] (perception_pkg) StdoutLine: {'line': b'copying package.xml -> /home/tx2/roadside_unit_ros2/install/perception_pkg/share/perception_pkg\n'}
+[4.283317] (perception_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.288546] (perception_pkg) StdoutLine: {'line': b'Copying ../../build/perception_pkg/perception_pkg.egg-info to /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages/perception_pkg-0.0.0-py3.6.egg-info\n'}
+[4.291980] (perception_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.324334] (-) TimerEvent: {}
+[4.364396] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.365612] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[4.370018] (perception_pkg) StdoutLine: {'line': b'Installing distance_estimator script to /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/perception_pkg\n'}
+[4.370794] (perception_pkg) StdoutLine: {'line': b'Installing scenario_classificator script to /home/tx2/roadside_unit_ros2/install/perception_pkg/lib/perception_pkg\n'}
+[4.371802] (perception_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/tx2/roadside_unit_ros2/build/perception_pkg/install.log'\n"}
+[4.424533] (-) TimerEvent: {}
+[4.475059] (perception_pkg) CommandEnded: {'returncode': 0}
+[4.527360] (-) TimerEvent: {}
+[4.534551] (perception_pkg) JobEnded: {'identifier': 'perception_pkg', 'rc': 0}
+[4.603607] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[4.604359] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.627597] (-) TimerEvent: {}
+[4.728265] (-) TimerEvent: {}
+[4.797584] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.798618] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.828444] (-) TimerEvent: {}
+[4.929140] (-) TimerEvent: {}
+[5.013822] (ros_deep_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.016905] (ros_deep_learning) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.029266] (-) TimerEvent: {}
+[5.071798] (ros_deep_learning) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "10.2") \n'}
+[5.120645] (ros_deep_learning) StderrLine: {'line': b'detected ROS_DISTRO=ROS_ELOQUENT\n'}
+[5.129390] (-) TimerEvent: {}
+[5.166103] (ros_deep_learning) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:19 (find_package):\n'}
+[5.166795] (ros_deep_learning) StderrLine: {'line': b'  By not providing "FindVPI.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[5.167195] (ros_deep_learning) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "VPI", but\n'}
+[5.167532] (ros_deep_learning) StderrLine: {'line': b'  CMake did not find one.\n'}
+[5.167860] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[5.168209] (ros_deep_learning) StderrLine: {'line': b'  Could not find a package configuration file provided by "VPI" (requested\n'}
+[5.168538] (ros_deep_learning) StderrLine: {'line': b'  version 2.0) with any of the following names:\n'}
+[5.168866] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[5.169197] (ros_deep_learning) StderrLine: {'line': b'    VPIConfig.cmake\n'}
+[5.169520] (ros_deep_learning) StderrLine: {'line': b'    vpi-config.cmake\n'}
+[5.169839] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[5.170159] (ros_deep_learning) StderrLine: {'line': b'  Add the installation prefix of "VPI" to CMAKE_PREFIX_PATH or set "VPI_DIR"\n'}
+[5.170483] (ros_deep_learning) StderrLine: {'line': b'  to a directory containing one of the above files.  If "VPI" provides a\n'}
+[5.170843] (ros_deep_learning) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[5.171175] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[5.171504] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[5.229552] (-) TimerEvent: {}
+[5.280601] (ros_deep_learning) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[5.281660] (ros_deep_learning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.329715] (-) TimerEvent: {}
+[5.430347] (-) TimerEvent: {}
+[5.531031] (-) TimerEvent: {}
+[5.631641] (-) TimerEvent: {}
+[5.732261] (-) TimerEvent: {}
+[5.832939] (-) TimerEvent: {}
+[5.933806] (-) TimerEvent: {}
+[6.034600] (-) TimerEvent: {}
+[6.135287] (-) TimerEvent: {}
+[6.184545] (ros_deep_learning) StderrLine: {'line': b'detected ROS2 (ament_cmake)\n'}
+[6.190774] (ros_deep_learning) StdoutLine: {'line': b'-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[6.235464] (-) TimerEvent: {}
+[6.271716] (ros_deep_learning) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[6.335631] (-) TimerEvent: {}
+[6.436299] (-) TimerEvent: {}
+[6.440721] (ros_deep_learning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[6.444812] (ros_deep_learning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.536468] (-) TimerEvent: {}
+[6.591513] (ros_deep_learning) StdoutLine: {'line': b'-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)\n'}
+[6.613112] (ros_deep_learning) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[6.636623] (-) TimerEvent: {}
+[6.682453] (ros_deep_learning) StdoutLine: {'line': b'-- Found vision_msgs: 2.0.0 (/opt/ros/eloquent/share/vision_msgs/cmake)\n'}
+[6.736808] (-) TimerEvent: {}
+[6.837492] (-) TimerEvent: {}
+[6.938163] (-) TimerEvent: {}
+[7.038864] (-) TimerEvent: {}
+[7.139530] (-) TimerEvent: {}
+[7.240195] (-) TimerEvent: {}
+[7.340856] (-) TimerEvent: {}
+[7.441504] (-) TimerEvent: {}
+[7.542130] (-) TimerEvent: {}
+[7.642810] (-) TimerEvent: {}
+[7.701064] (ros_deep_learning) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.742992] (-) TimerEvent: {}
+[7.843691] (-) TimerEvent: {}
+[7.880903] (ros_deep_learning) StdoutLine: {'line': b'-- Generating done\n'}
+[7.887068] (ros_deep_learning) StdoutLine: {'line': b'-- Build files have been written to: /home/tx2/roadside_unit_ros2/build/ros_deep_learning\n'}
+[7.902736] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[7.905936] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'build'}
+[7.908989] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tx2/roadside_unit_ros2/build/ros_deep_learning', '--', '-j4', '-l4'], 'cwd': '/home/tx2/roadside_unit_ros2/build/ros_deep_learning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'tx2'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('ROS_PACKAGE_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/tx2/roadside_unit_ros2/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tx2'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.4'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('JETSON_MODEL', 'quill'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '6338'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8761'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881d'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tx2'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:44384'), ('JETSON_SERIAL_NUMBER', '0423818033469'), ('JETSON_MODULE', 'NVIDIA Jetson TX2'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Quill'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/pkgconfig'), ('USERNAME', 'tx2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/tx2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'c997d7c0049e408882f411cee51186ae'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/6642,unix/ubuntu:/tmp/.ICE-unix/6642'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra186'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('TERMINATOR_UUID', 'urn:uuid:5b3e587d-266d-4548-a845-80f8a188ccb6'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3310-0000-A0'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '6.2'), ('PWD', '/home/tx2/roadside_unit_ros2/build/ros_deep_learning'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('PYTHONPATH', '/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.4'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent'), ('JETSON_P_NUMBER', 'p3310-1000')]), 'shell': False}
+[7.944088] (-) TimerEvent: {}
+[8.045114] (-) TimerEvent: {}
+[8.061513] (ros_deep_learning) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imagenet\x1b[0m\n'}
+[8.062455] (ros_deep_learning) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target segnet\x1b[0m\n'}
+[8.063421] (ros_deep_learning) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target video_output\x1b[0m\n'}
+[8.065619] (ros_deep_learning) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectnet\x1b[0m\n'}
+[8.145294] (-) TimerEvent: {}
+[8.200620] (ros_deep_learning) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o\x1b[0m\n'}
+[8.220395] (ros_deep_learning) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/segnet.dir/src/node_segnet.cpp.o\x1b[0m\n'}
+[8.237315] (ros_deep_learning) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o\x1b[0m\n'}
+[8.245508] (-) TimerEvent: {}
+[8.256509] (ros_deep_learning) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/video_output.dir/src/node_video_output.cpp.o\x1b[0m\n'}
+[8.345729] (-) TimerEvent: {}
+[8.446838] (-) TimerEvent: {}
+[8.547942] (-) TimerEvent: {}
+[8.648959] (-) TimerEvent: {}
+[8.749993] (-) TimerEvent: {}
+[8.851052] (-) TimerEvent: {}
+[8.952065] (-) TimerEvent: {}
+[9.052829] (-) TimerEvent: {}
+[9.153822] (-) TimerEvent: {}
+[9.254853] (-) TimerEvent: {}
+[9.355876] (-) TimerEvent: {}
+[9.456902] (-) TimerEvent: {}
+[9.557931] (-) TimerEvent: {}
+[9.658893] (-) TimerEvent: {}
+[9.759935] (-) TimerEvent: {}
+[9.860947] (-) TimerEvent: {}
+[9.961738] (-) TimerEvent: {}
+[10.062867] (-) TimerEvent: {}
+[10.163616] (-) TimerEvent: {}
+[10.264606] (-) TimerEvent: {}
+[10.365676] (-) TimerEvent: {}
+[10.466665] (-) TimerEvent: {}
+[10.567686] (-) TimerEvent: {}
+[10.668738] (-) TimerEvent: {}
+[10.769775] (-) TimerEvent: {}
+[10.870838] (-) TimerEvent: {}
+[10.971861] (-) TimerEvent: {}
+[11.072867] (-) TimerEvent: {}
+[11.173879] (-) TimerEvent: {}
+[11.274882] (-) TimerEvent: {}
+[11.375892] (-) TimerEvent: {}
+[11.476665] (-) TimerEvent: {}
+[11.577700] (-) TimerEvent: {}
+[11.678753] (-) TimerEvent: {}
+[11.779766] (-) TimerEvent: {}
+[11.880767] (-) TimerEvent: {}
+[11.988984] (-) TimerEvent: {}
+[12.089981] (-) TimerEvent: {}
+[12.191059] (-) TimerEvent: {}
+[12.292097] (-) TimerEvent: {}
+[12.393137] (-) TimerEvent: {}
+[12.494182] (-) TimerEvent: {}
+[12.595007] (-) TimerEvent: {}
+[12.695840] (-) TimerEvent: {}
+[12.796947] (-) TimerEvent: {}
+[12.897987] (-) TimerEvent: {}
+[12.999049] (-) TimerEvent: {}
+[13.100108] (-) TimerEvent: {}
+[13.201169] (-) TimerEvent: {}
+[13.302343] (-) TimerEvent: {}
+[13.403412] (-) TimerEvent: {}
+[13.504202] (-) TimerEvent: {}
+[13.605235] (-) TimerEvent: {}
+[13.706347] (-) TimerEvent: {}
+[13.807442] (-) TimerEvent: {}
+[13.908241] (-) TimerEvent: {}
+[14.009068] (-) TimerEvent: {}
+[14.109867] (-) TimerEvent: {}
+[14.210887] (-) TimerEvent: {}
+[14.311906] (-) TimerEvent: {}
+[14.412921] (-) TimerEvent: {}
+[14.513954] (-) TimerEvent: {}
+[14.615047] (-) TimerEvent: {}
+[14.716115] (-) TimerEvent: {}
+[14.817182] (-) TimerEvent: {}
+[14.918254] (-) TimerEvent: {}
+[15.019334] (-) TimerEvent: {}
+[15.120571] (-) TimerEvent: {}
+[15.221622] (-) TimerEvent: {}
+[15.322674] (-) TimerEvent: {}
+[15.423785] (-) TimerEvent: {}
+[15.524842] (-) TimerEvent: {}
+[15.626132] (-) TimerEvent: {}
+[15.753079] (-) TimerEvent: {}
+[15.853997] (-) TimerEvent: {}
+[15.955057] (-) TimerEvent: {}
+[16.056099] (-) TimerEvent: {}
+[16.157212] (-) TimerEvent: {}
+[16.258277] (-) TimerEvent: {}
+[16.359355] (-) TimerEvent: {}
+[16.460394] (-) TimerEvent: {}
+[16.561202] (-) TimerEvent: {}
+[16.674988] (-) TimerEvent: {}
+[16.775875] (-) TimerEvent: {}
+[16.876706] (-) TimerEvent: {}
+[16.977773] (-) TimerEvent: {}
+[17.078869] (-) TimerEvent: {}
+[17.179924] (-) TimerEvent: {}
+[17.280999] (-) TimerEvent: {}
+[17.382069] (-) TimerEvent: {}
+[17.483088] (-) TimerEvent: {}
+[17.584164] (-) TimerEvent: {}
+[17.685247] (-) TimerEvent: {}
+[17.786387] (-) TimerEvent: {}
+[17.887373] (-) TimerEvent: {}
+[17.989398] (-) TimerEvent: {}
+[18.090465] (-) TimerEvent: {}
+[18.191320] (-) TimerEvent: {}
+[18.292338] (-) TimerEvent: {}
+[18.393373] (-) TimerEvent: {}
+[18.494422] (-) TimerEvent: {}
+[18.595595] (-) TimerEvent: {}
+[18.696637] (-) TimerEvent: {}
+[18.797647] (-) TimerEvent: {}
+[18.898673] (-) TimerEvent: {}
+[18.999744] (-) TimerEvent: {}
+[19.100579] (-) TimerEvent: {}
+[19.201659] (-) TimerEvent: {}
+[19.302801] (-) TimerEvent: {}
+[19.403848] (-) TimerEvent: {}
+[19.504877] (-) TimerEvent: {}
+[19.605900] (-) TimerEvent: {}
+[19.706938] (-) TimerEvent: {}
+[19.807962] (-) TimerEvent: {}
+[19.908975] (-) TimerEvent: {}
+[20.009993] (-) TimerEvent: {}
+[20.111062] (-) TimerEvent: {}
+[20.212127] (-) TimerEvent: {}
+[20.313161] (-) TimerEvent: {}
+[20.391741] (ros_deep_learning) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/video_output.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[20.413368] (-) TimerEvent: {}
+[20.514439] (-) TimerEvent: {}
+[20.615217] (-) TimerEvent: {}
+[20.716322] (-) TimerEvent: {}
+[20.817391] (-) TimerEvent: {}
+[20.918460] (-) TimerEvent: {}
+[21.019567] (-) TimerEvent: {}
+[21.120623] (-) TimerEvent: {}
+[21.221683] (-) TimerEvent: {}
+[21.322763] (-) TimerEvent: {}
+[21.423840] (-) TimerEvent: {}
+[21.524914] (-) TimerEvent: {}
+[21.625979] (-) TimerEvent: {}
+[21.727077] (-) TimerEvent: {}
+[21.828126] (-) TimerEvent: {}
+[21.929224] (-) TimerEvent: {}
+[22.030024] (-) TimerEvent: {}
+[22.131125] (-) TimerEvent: {}
+[22.231998] (-) TimerEvent: {}
+[22.333200] (-) TimerEvent: {}
+[22.434149] (-) TimerEvent: {}
+[22.535243] (-) TimerEvent: {}
+[22.636298] (-) TimerEvent: {}
+[22.737320] (-) TimerEvent: {}
+[22.838373] (-) TimerEvent: {}
+[22.939443] (-) TimerEvent: {}
+[23.040500] (-) TimerEvent: {}
+[23.141653] (-) TimerEvent: {}
+[23.242744] (-) TimerEvent: {}
+[23.343848] (-) TimerEvent: {}
+[23.372859] (ros_deep_learning) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/segnet.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[23.444057] (-) TimerEvent: {}
+[23.545139] (-) TimerEvent: {}
+[23.646453] (-) TimerEvent: {}
+[23.747506] (-) TimerEvent: {}
+[23.848522] (-) TimerEvent: {}
+[23.949561] (-) TimerEvent: {}
+[24.050626] (-) TimerEvent: {}
+[24.151410] (-) TimerEvent: {}
+[24.252427] (-) TimerEvent: {}
+[24.353463] (-) TimerEvent: {}
+[24.454503] (-) TimerEvent: {}
+[24.555547] (-) TimerEvent: {}
+[24.656573] (-) TimerEvent: {}
+[24.757589] (-) TimerEvent: {}
+[24.858692] (-) TimerEvent: {}
+[24.951588] (ros_deep_learning) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/imagenet.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[24.958891] (-) TimerEvent: {}
+[25.008312] (ros_deep_learning) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/detectnet.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[25.059075] (-) TimerEvent: {}
+[25.159857] (-) TimerEvent: {}
+[25.260908] (-) TimerEvent: {}
+[25.361905] (-) TimerEvent: {}
+[25.462968] (-) TimerEvent: {}
+[25.570900] (-) TimerEvent: {}
+[25.625570] (ros_deep_learning) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/video_output.dir/src/ros_compat.cpp.o\x1b[0m\n'}
+[25.671093] (-) TimerEvent: {}
+[25.771900] (-) TimerEvent: {}
+[25.872868] (-) TimerEvent: {}
+[25.973892] (-) TimerEvent: {}
+[26.074968] (-) TimerEvent: {}
+[26.176011] (-) TimerEvent: {}
+[26.277048] (-) TimerEvent: {}
+[26.378075] (-) TimerEvent: {}
+[26.479098] (-) TimerEvent: {}
+[26.580121] (-) TimerEvent: {}
+[26.681210] (-) TimerEvent: {}
+[26.782260] (-) TimerEvent: {}
+[26.883629] (-) TimerEvent: {}
+[26.990263] (-) TimerEvent: {}
+[27.091129] (-) TimerEvent: {}
+[27.191945] (-) TimerEvent: {}
+[27.292813] (-) TimerEvent: {}
+[27.393906] (-) TimerEvent: {}
+[27.494964] (-) TimerEvent: {}
+[27.596013] (-) TimerEvent: {}
+[27.697229] (-) TimerEvent: {}
+[27.798296] (-) TimerEvent: {}
+[27.899358] (-) TimerEvent: {}
+[28.000417] (-) TimerEvent: {}
+[28.101200] (-) TimerEvent: {}
+[28.202298] (-) TimerEvent: {}
+[28.269172] (ros_deep_learning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/segnet.dir/src/ros_compat.cpp.o\x1b[0m\n'}
+[28.302513] (-) TimerEvent: {}
+[28.403617] (-) TimerEvent: {}
+[28.504662] (-) TimerEvent: {}
+[28.605729] (-) TimerEvent: {}
+[28.706854] (-) TimerEvent: {}
+[28.807889] (-) TimerEvent: {}
+[28.908925] (-) TimerEvent: {}
+[29.009988] (-) TimerEvent: {}
+[29.111078] (-) TimerEvent: {}
+[29.212137] (-) TimerEvent: {}
+[29.323272] (-) TimerEvent: {}
+[29.424142] (-) TimerEvent: {}
+[29.525197] (-) TimerEvent: {}
+[29.626244] (-) TimerEvent: {}
+[29.669550] (ros_deep_learning) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/imagenet.dir/src/ros_compat.cpp.o\x1b[0m\n'}
+[29.726453] (-) TimerEvent: {}
+[29.790030] (ros_deep_learning) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/detectnet.dir/src/ros_compat.cpp.o\x1b[0m\n'}
+[29.826687] (-) TimerEvent: {}
+[29.927936] (-) TimerEvent: {}
+[30.028923] (-) TimerEvent: {}
+[30.129929] (-) TimerEvent: {}
+[30.230961] (-) TimerEvent: {}
+[30.319246] (ros_deep_learning) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable video_output\x1b[0m\n'}
+[30.331154] (-) TimerEvent: {}
+[30.432169] (-) TimerEvent: {}
+[30.533315] (-) TimerEvent: {}
+[30.634448] (-) TimerEvent: {}
+[30.735766] (-) TimerEvent: {}
+[30.837004] (-) TimerEvent: {}
+[30.938238] (-) TimerEvent: {}
+[31.039246] (-) TimerEvent: {}
+[31.140300] (-) TimerEvent: {}
+[31.241349] (-) TimerEvent: {}
+[31.342462] (-) TimerEvent: {}
+[31.443568] (-) TimerEvent: {}
+[31.544591] (-) TimerEvent: {}
+[31.593103] (ros_deep_learning) StdoutLine: {'line': b'[ 65%] Built target video_output\n'}
+[31.632304] (ros_deep_learning) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target video_source\x1b[0m\n'}
+[31.644797] (-) TimerEvent: {}
+[31.745808] (-) TimerEvent: {}
+[31.846892] (-) TimerEvent: {}
+[31.883355] (ros_deep_learning) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/video_source.dir/src/node_video_source.cpp.o\x1b[0m\n'}
+[31.947084] (-) TimerEvent: {}
+[32.048092] (-) TimerEvent: {}
+[32.148855] (-) TimerEvent: {}
+[32.249895] (-) TimerEvent: {}
+[32.350885] (-) TimerEvent: {}
+[32.451929] (-) TimerEvent: {}
+[32.552726] (-) TimerEvent: {}
+[32.653549] (-) TimerEvent: {}
+[32.754347] (-) TimerEvent: {}
+[32.855414] (-) TimerEvent: {}
+[32.920842] (ros_deep_learning) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable segnet\x1b[0m\n'}
+[32.955616] (-) TimerEvent: {}
+[33.056413] (-) TimerEvent: {}
+[33.157545] (-) TimerEvent: {}
+[33.258448] (-) TimerEvent: {}
+[33.359708] (-) TimerEvent: {}
+[33.460727] (-) TimerEvent: {}
+[33.561818] (-) TimerEvent: {}
+[33.663033] (-) TimerEvent: {}
+[33.764219] (-) TimerEvent: {}
+[33.865384] (-) TimerEvent: {}
+[33.966463] (-) TimerEvent: {}
+[34.067572] (-) TimerEvent: {}
+[34.168619] (-) TimerEvent: {}
+[34.269684] (-) TimerEvent: {}
+[34.302949] (ros_deep_learning) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable imagenet\x1b[0m\n'}
+[34.369900] (-) TimerEvent: {}
+[34.471035] (-) TimerEvent: {}
+[34.574919] (-) TimerEvent: {}
+[34.612522] (ros_deep_learning) StdoutLine: {'line': b'[ 80%] Built target segnet\n'}
+[34.654877] (ros_deep_learning) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/video_source.dir/src/image_converter.cpp.o\x1b[0m\n'}
+[34.675104] (-) TimerEvent: {}
+[34.735038] (ros_deep_learning) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable detectnet\x1b[0m\n'}
+[34.775318] (-) TimerEvent: {}
+[34.876600] (-) TimerEvent: {}
+[34.977797] (-) TimerEvent: {}
+[35.078898] (-) TimerEvent: {}
+[35.180051] (-) TimerEvent: {}
+[35.281392] (-) TimerEvent: {}
+[35.382617] (-) TimerEvent: {}
+[35.483734] (-) TimerEvent: {}
+[35.584811] (-) TimerEvent: {}
+[35.686036] (-) TimerEvent: {}
+[35.787179] (-) TimerEvent: {}
+[35.888274] (-) TimerEvent: {}
+[35.989171] (-) TimerEvent: {}
+[36.074693] (ros_deep_learning) StdoutLine: {'line': b'[ 90%] Built target imagenet\n'}
+[36.089389] (-) TimerEvent: {}
+[36.110007] (ros_deep_learning) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/video_source.dir/src/ros_compat.cpp.o\x1b[0m\n'}
+[36.189593] (-) TimerEvent: {}
+[36.290605] (-) TimerEvent: {}
+[36.391431] (-) TimerEvent: {}
+[36.492173] (-) TimerEvent: {}
+[36.547604] (ros_deep_learning) StdoutLine: {'line': b'[ 95%] Built target detectnet\n'}
+[36.592381] (-) TimerEvent: {}
+[36.693401] (-) TimerEvent: {}
+[36.794202] (-) TimerEvent: {}
+[36.895079] (-) TimerEvent: {}
+[36.995887] (-) TimerEvent: {}
+[37.096895] (-) TimerEvent: {}
+[37.202865] (-) TimerEvent: {}
+[37.303886] (-) TimerEvent: {}
+[37.404975] (-) TimerEvent: {}
+[37.505981] (-) TimerEvent: {}
+[37.607088] (-) TimerEvent: {}
+[37.708094] (-) TimerEvent: {}
+[37.809148] (-) TimerEvent: {}
+[37.910147] (-) TimerEvent: {}
+[38.011183] (-) TimerEvent: {}
+[38.112182] (-) TimerEvent: {}
+[38.213183] (-) TimerEvent: {}
+[38.314196] (-) TimerEvent: {}
+[38.415331] (-) TimerEvent: {}
+[38.516343] (-) TimerEvent: {}
+[38.617366] (-) TimerEvent: {}
+[38.718388] (-) TimerEvent: {}
+[38.819498] (-) TimerEvent: {}
+[38.920624] (-) TimerEvent: {}
+[39.021654] (-) TimerEvent: {}
+[39.122695] (-) TimerEvent: {}
+[39.224215] (-) TimerEvent: {}
+[39.325671] (-) TimerEvent: {}
+[39.426812] (-) TimerEvent: {}
+[39.527607] (-) TimerEvent: {}
+[39.628385] (-) TimerEvent: {}
+[39.729139] (-) TimerEvent: {}
+[39.829896] (-) TimerEvent: {}
+[39.930646] (-) TimerEvent: {}
+[40.031496] (-) TimerEvent: {}
+[40.132258] (-) TimerEvent: {}
+[40.232997] (-) TimerEvent: {}
+[40.333731] (-) TimerEvent: {}
+[40.434426] (-) TimerEvent: {}
+[40.535195] (-) TimerEvent: {}
+[40.635885] (-) TimerEvent: {}
+[40.736921] (-) TimerEvent: {}
+[40.838117] (-) TimerEvent: {}
+[40.938843] (-) TimerEvent: {}
+[41.039533] (-) TimerEvent: {}
+[41.109556] (ros_deep_learning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable video_source\x1b[0m\n'}
+[41.139717] (-) TimerEvent: {}
+[41.240454] (-) TimerEvent: {}
+[41.341318] (-) TimerEvent: {}
+[41.442036] (-) TimerEvent: {}
+[41.542847] (-) TimerEvent: {}
+[41.643581] (-) TimerEvent: {}
+[41.744329] (-) TimerEvent: {}
+[41.845060] (-) TimerEvent: {}
+[41.945816] (-) TimerEvent: {}
+[42.046545] (-) TimerEvent: {}
+[42.118327] (ros_deep_learning) StdoutLine: {'line': b'[100%] Built target video_source\n'}
+[42.146785] (-) TimerEvent: {}
+[42.164643] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[42.246995] (-) TimerEvent: {}
+[42.314422] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'install'}
+[42.347319] (-) TimerEvent: {}
+[42.353255] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tx2/roadside_unit_ros2/build/ros_deep_learning', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/tx2/roadside_unit_ros2/build/ros_deep_learning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'tx2'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('ROS_PACKAGE_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/share'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/tx2/roadside_unit_ros2/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tx2'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.4'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('JETSON_MODEL', 'quill'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '6338'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8761'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881d'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tx2'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:44384'), ('JETSON_SERIAL_NUMBER', '0423818033469'), ('JETSON_MODULE', 'NVIDIA Jetson TX2'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Quill'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/pkgconfig'), ('USERNAME', 'tx2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/tx2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'c997d7c0049e408882f411cee51186ae'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/6642,unix/ubuntu:/tmp/.ICE-unix/6642'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra186'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('TERMINATOR_UUID', 'urn:uuid:5b3e587d-266d-4548-a845-80f8a188ccb6'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3310-0000-A0'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '6.2'), ('PWD', '/home/tx2/roadside_unit_ros2/build/ros_deep_learning'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('PYTHONPATH', '/home/tx2/roadside_unit_ros2/install/perception_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.4'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tx2/roadside_unit_ros2/install/ros_deep_learning:/home/tx2/roadside_unit_ros2/install/perception_pkg:/opt/ros/eloquent'), ('JETSON_P_NUMBER', 'p3310-1000')]), 'shell': False}
+[42.447608] (-) TimerEvent: {}
+[42.548447] (-) TimerEvent: {}
+[42.605173] (ros_deep_learning) StdoutLine: {'line': b'[ 20%] Built target video_output\n'}
+[42.606547] (ros_deep_learning) StdoutLine: {'line': b'[ 40%] Built target imagenet\n'}
+[42.610536] (ros_deep_learning) StdoutLine: {'line': b'[ 60%] Built target segnet\n'}
+[42.613491] (ros_deep_learning) StdoutLine: {'line': b'[ 80%] Built target detectnet\n'}
+[42.648613] (-) TimerEvent: {}
+[42.724675] (ros_deep_learning) StdoutLine: {'line': b'[100%] Built target video_source\n'}
+[42.748798] (-) TimerEvent: {}
+[42.790285] (ros_deep_learning) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[42.820564] (ros_deep_learning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.821297] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/imagenet\n'}
+[42.829991] (ros_deep_learning) StdoutLine: {'line': b'-- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/imagenet" to ""\n'}
+[42.830696] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/detectnet\n'}
+[42.838957] (ros_deep_learning) StdoutLine: {'line': b'-- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/detectnet" to ""\n'}
+[42.839659] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/segnet\n'}
+[42.847401] (ros_deep_learning) StdoutLine: {'line': b'-- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/segnet" to ""\n'}
+[42.848078] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_source\n'}
+[42.848891] (-) TimerEvent: {}
+[42.853127] (ros_deep_learning) StdoutLine: {'line': b'-- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_source" to ""\n'}
+[42.853762] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_output\n'}
+[42.859877] (ros_deep_learning) StdoutLine: {'line': b'-- Set runtime path of "/home/tx2/roadside_unit_ros2/install/ros_deep_learning/lib/ros_deep_learning/video_output" to ""\n'}
+[42.860658] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch\n'}
+[42.861155] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch\n'}
+[42.861610] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch\n'}
+[42.862006] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch\n'}
+[42.862469] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch\n'}
+[42.863022] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch\n'}
+[42.863490] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch\n'}
+[42.863877] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch\n'}
+[42.864339] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch\n'}
+[42.864708] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch\n'}
+[42.865119] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch\n'}
+[42.865519] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch\n'}
+[42.865903] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch\n'}
+[42.866286] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning\n'}
+[42.866683] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning\n'}
+[42.867198] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh\n'}
+[42.867627] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv\n'}
+[42.868031] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh\n'}
+[42.868427] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv\n'}
+[42.868817] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash\n'}
+[42.869175] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh\n'}
+[42.869611] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh\n'}
+[42.870003] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv\n'}
+[42.870373] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.dsv\n'}
+[42.870852] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning\n'}
+[42.871307] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake\n'}
+[42.871752] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake\n'}
+[42.872182] (ros_deep_learning) StdoutLine: {'line': b'-- Installing: /home/tx2/roadside_unit_ros2/install/ros_deep_learning/share/ros_deep_learning/package.xml\n'}
+[42.878165] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[42.949277] (-) TimerEvent: {}
+[43.050225] (-) TimerEvent: {}
+[43.098687] (ros_deep_learning) JobEnded: {'identifier': 'ros_deep_learning', 'rc': 0}
+[43.106043] (-) EventReactorShutdown: {}

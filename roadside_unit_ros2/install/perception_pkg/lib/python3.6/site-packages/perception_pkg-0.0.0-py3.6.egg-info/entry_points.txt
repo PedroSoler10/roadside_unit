@@ -1,0 +1,5 @@
+[console_scripts]
+distance_estimator = perception_pkg.distance_estimator:main
+scenario_classificator = perception_pkg.scenario_classificator:main
+scenario_visualizer = perception_pkg.scenario_visualizer:main
+
