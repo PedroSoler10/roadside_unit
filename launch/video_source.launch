@@ -6,6 +6,7 @@
 	<arg name="input_height" default="0"/>
 	<arg name="input_codec" default="unknown"/>
 	<arg name="input_loop" default="0"/>
+	<arg name="input_flip" default="none"/>
 
 	<include file="$(find ros_deep_learning)/launch/video_source.ros1.launch">
 		<arg name="input" value="$(arg input)"/>
@@ -13,5 +14,6 @@
 		<arg name="input_height" value="$(arg input_height)"/>
 		<arg name="input_codec" value="$(arg input_codec)"/>
 		<arg name="input_loop" value="$(arg input_loop)"/>
+		<arg name="input_flip" value="$(arg input_flip)"/>
 	</include>
 </launch>

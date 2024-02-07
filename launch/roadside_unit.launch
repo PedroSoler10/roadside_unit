@@ -1,7 +1,8 @@
 <launch>
 
 	<!-- VIDEO SOURCE -->
-	<arg name="input" default="csi://0"/>
+	<!-- <arg name="input" default="csi://0"/> -->
+	<arg name="input" default="/dev/video1"/>
 	<arg name="input_width" default="0"/>
 	<arg name="input_height" default="0"/>
 	<arg name="input_codec" default="unknown"/>
@@ -48,13 +49,14 @@
     <node name="scenario_visualizer" pkg="debugging_pkg" type="scenario_visualizer.py" />
 
 	<!-- VIDEO OUTPUT -->
-	<arg name="visualize_tx2" default="false" />
+	<arg name="image_nvidia" default="true" />
 	<arg name="output" default="display://0"/>
 	<arg name="output_codec" default="unknown"/>
 	<arg name="output_bitrate" default="0"/>
+    <arg name="image_nvidia_topic" default="/scenario/overlay" />
 
-	<include if="$(arg visualize_tx2)" file="$(find ros_deep_learning)/launch/video_output.ros1.launch">
-		<arg name="topic" value="/detectnet/overlay"/>
+	<include file="$(find ros_deep_learning)/launch/video_output.ros1.launch" if="$(arg image_nvidia)">
+		<arg name="topic" value="$(arg image_nvidia_topic)"/>
 		<arg name="output" value="$(arg output)"/>
 		<arg name="output_codec" value="$(arg output_codec)"/>
 		<arg name="output_bitrate" value="$(arg output_bitrate)"/>
@@ -62,7 +64,7 @@
 
 
     <!-- IMAGE VIEWER -->
-    <arg name="image_view" default="true" />
+    <arg name="image_view" default="false" />
     <arg name="image_view_topic" default="/scenario/overlay" />
     
     <node name="image_view" pkg="image_view" type="image_view" respawn="false" output="screen" if="$(arg image_view)">
