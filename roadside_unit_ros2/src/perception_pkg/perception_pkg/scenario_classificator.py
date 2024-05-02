@@ -40,10 +40,10 @@ class ScenarioClassificator(Node):
 
     def callback(self, data):
         main_human_detection = Detection2D()
-        max_importance = 0.0
+        max_importance = -1.0
 
         for detection in data.detections:
-            if detection.results[0].id == 1:
+            if detection.results[0].id == "\x01":
                 self.get_logger().info("Human detected")
                 importance = detection.bbox.size_x * detection.bbox.size_y * detection.results[0].score / self.image_resolution
                 if importance > max_importance:
@@ -55,13 +55,13 @@ class ScenarioClassificator(Node):
             self.scenario = "used"
         elif max_importance > self.lower_importance_threshold:
             self.scenario = "solicited"
-        else:
+        elif max_importance >= 0:
             self.scenario = "free"
 
         self.publisher.publish(String(data=self.scenario))
         self.get_logger().info('Published: %s' % self.scenario)
 
-        if self.visualization_flag and self.scenario != "free":
+        if self.visualization_flag and self.scenario != "free" and self.scenario != "unknown":
             self.visualize_metrics(main_human_detection, data.header.stamp.sec)
 
 def main(args=None):

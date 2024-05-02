@@ -2,6 +2,7 @@
 	<arg name="output" default="display://0"/>
 	<arg name="output_codec" default="unknown"/>
 	<arg name="output_bitrate" default="0"/>
+	<!-- <arg name="topic" default="/video_source/raw"/> -->
 	<arg name="topic" default="/scenario/overlay"/>
 
 	<node pkg="ros_deep_learning" exec="video_output" output="screen">

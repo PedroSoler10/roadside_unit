@@ -1,4 +1,8 @@
 <launch>
+	<arg name="input" default="csi://0"/>
+	<!-- <arg name="input" default="/dev/video1"/> -->
+	<!-- <arg name="topic" default="/video_source/raw"/> -->
+	<arg name="topic" default="/scenario/overlay"/>
 
 	<!-- VIDEO SOURCE -->
 	<include file="$(find-pkg-share ros_deep_learning)/launch/video_source.ros2.launch"/>
