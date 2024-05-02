@@ -248,3 +248,4 @@ Video Output:
   *video_output/image_in (arg topic):
 *Publishes to:
   
+![rosgraph](https://github.com/PedroSoler10/roadside_unit/assets/74536059/5844232b-6a57-44c8-9ae0-4c27e90cf1a6)
