@@ -1,11 +1,12 @@
 <launch>
-	<!-- <arg name="input" default="csi://0"/> -->
-	<arg name="input" default="/dev/video1"/>
+	<arg name="input" default="csi://0"/>
+	<!-- <arg name="input" default="/dev/video1"/> -->
 	<arg name="input_width" default="0"/>
 	<arg name="input_height" default="0"/>
 	<arg name="input_codec" default="unknown"/>
 	<arg name="input_loop" default="0"/>
 	<arg name="input_latency" default="2000"/>
+	<arg name="input_flip" default="horizontal"/>
 	
 	<node pkg="ros_deep_learning" exec="video_source" output="screen">
 		<param name="resource" value="$(var input)"/>
@@ -14,6 +15,7 @@
 		<param name="codec" value="$(var input_codec)"/>
 		<param name="loop" value="$(var input_loop)"/>
 		<param name="latency" value="$(var input_latency)"/>
+		<param name="flip" value="$(var input_flip)"/>
 	</node>
 
 </launch>
