@@ -1,6 +1,27 @@
 roadside_unit
 ====
-This project is part of my master thesis: "Implementation of a System to Infrastructure System for Autonomous Vehicles"
+This project is part of my master thesis: "Implementation of a System to Infrastructure System for Autonomous Vehicles".
+
+A Jetson TX2 module was used.
+
+Last compatible SO for the TX2: Ubuntu 18.04 Bionic Beaver
+
+https://developer.nvidia.com/embedded/jetpack-archive
+
+NVIDIA SW:
+
+https://github.com/dusty-nv/jetson-inference
+
+Last compatible ROS version for Bionic: ROS Melodic Morenia / ROS2 Eloquent Elusor
+
+https://www.ros.org/reps/rep-0003.html
+
+https://docs.ros.org/en/rolling/Releases/Release-Eloquent-Elusor.html
+
+ROS wrapper for NVIDIA SW:
+
+https://github.com/dusty-nv/ros_deep_learning
+
 
 Set up GitHub
 ------
